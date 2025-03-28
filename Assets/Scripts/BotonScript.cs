@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class BotonScript : MonoBehaviour
 {
-    public GameObject BotonGO;
+    public GameObject botonGO;
+
     private void OnMouseDown()
     {
-        BotonGO.SetActive(false);
+        botonGO.SetActive(false);
     }
+
     private void OnMouseUp()
     {
-        BotonGO.SetActive(true);
+        botonGO.SetActive(true);
     }
 }
